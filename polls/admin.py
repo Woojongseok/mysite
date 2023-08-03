@@ -22,6 +22,9 @@ class QuestionAdmin(admin.ModelAdmin):
 
     list_filter = ['pub_date']          # Filter 기능 활성화(전체, 지난, 올해, 이번달 등등)
     search_fields = ['question_text']   # 검색 활성화
+
+
+    
     
 
 # admin.site.register(Question)
